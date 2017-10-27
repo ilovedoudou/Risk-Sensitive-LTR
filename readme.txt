@@ -153,6 +153,11 @@ Params:
 	[ -tc <k> ]		Number of threshold candidates for tree spliting. -1 to use all feature values (default=256)
 	[ -mls <n> ]		Min leaf support -- minimum #samples each leaf has to contain (default=1)
 	[ -estop <e> ]		Stop early when no improvement is observed on validaton data in e consecutive rounds (default=100)
+	[ -col_sample <f> ]	Feature sampling when spliting a node (default=1.0).
+	[ -row_sample <f> ]	Instance sampling when creating a tree (default=1.0).
+	[ -alpha <f> ]	  risk-sensitivity parameter that controls the tradeoff between risk and reward (default=0.0).
+	[ -risk_type <t> ]	  risk-sensitivity type urisk:0 -- SARO:1 -- FARO:2  (default=0).
+
 
     [-] ListNet-specific parameters
 	[ -epoch <T> ]		The number of epochs to train (default=1500)
