@@ -1,9 +1,9 @@
 Modify by HUI 2017
-Date:		December, 2013.
-Version:	2.3
 ======================================
 
 WHAT'S NEW
+- [sample] Col_sample and Row Sample
+- [Risk]   Three kinds of risk metrics 
 - [bugfix] RankLib crashes when #features < #threads with some algorithms.
 - [bugfix] Normalization issue with RankBoost (the command "-test <test-data> -load <RB-model-file> -norm zscore/sum" incorrectly normalizes the test data).
 - [bugfix] Reciprocal rank is always measured off the entire ranked list, regardless of the specified cut-off point.
